@@ -1,0 +1,26 @@
+# Gradle / Android build outputs
+.gradle/
+build/
+app/build/
+app/.cxx/
+release/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Local SDK / IDE files
+local.properties
+.idea/
+*.iml
+.vscode/
+
+# Signing keys - NÃO subir para GitHub
+key.properties
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
